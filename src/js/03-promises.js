@@ -9,7 +9,7 @@ form.addEventListener('submit', e => {
 
   if (delay <= 0 || step < 0 || amount < 0) {
     return Notiflix.Report.warning(
-      'Opsss....🧟‍♂️',
+      'Opssss....🧟‍♂️',
       'The number must be greater than 0',
       'Try again'
     );
